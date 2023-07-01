@@ -1,5 +1,13 @@
 # ESP32_CAM_Challenges Faced on Mac OS  June 14th 2023
 
+Interesting link from Drone Bot Workshop
+
+
+https://dronebotworkshop.com/esp32-cam-intro/#:~:text=Open%20your%20Serial%20Monitor%2C%20making,on%20the%20ESP32%2DCAM%20module.
+
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/696cdae9-9b82-491e-9d08-37944da42733)
+
 
 Troubleshooting tips.
 
