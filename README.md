@@ -62,3 +62,14 @@ user id for http://192.168.x.x:phpmyadmin is
 phpmyadmin  -> password is standard
 
 
+Send data from webcam to Raspberry Pi -to render on the Rpi Server
+
+https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
+
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/a04de772-d698-49e1-961c-adba92bbf04a)
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/cb4850a5-e21d-4934-90df-34721e0ebf40)
+
+https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
+
