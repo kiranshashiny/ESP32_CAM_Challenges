@@ -51,6 +51,14 @@ Click on Start stream or Get Still to get the images.
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/ff996e04-71be-4915-b622-06e54ddcdbbb)
 
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/8ddf6fc9-43fa-4fd7-b401-94757cbc7d6b)
 
 
 SUCCESS
+
+dbconfig-common  is in /etc/dbconfig-common
+
+user id for http://192.168.x.x:phpmyadmin is 
+phpmyadmin  -> password is standard
+
+
