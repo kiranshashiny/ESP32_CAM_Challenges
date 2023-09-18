@@ -76,7 +76,7 @@ https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
 
 
 ##Problem: During the Upload - if you encounter, this error 
-``
+```
 [E][camera.c:1113] camera_probe(): Detected camera not supported.
 [E][camera.c:1379] esp_camera_init(): Camera probe failed with error 0x20004
-``
+```
