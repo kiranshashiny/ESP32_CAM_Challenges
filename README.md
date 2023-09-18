@@ -81,7 +81,13 @@ https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
 [E][camera.c:1113] camera_probe(): Detected camera not supported.
 [E][camera.c:1379] esp_camera_init(): Camera probe failed with error 0x20004
 ```
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/1dfeeb18-85ef-4573-a173-dc142cdd714e)
 
+Ensure that you have set the camera model is set to AI_THINKER 
+
+It would have been set to #define CAMERA_MODEL_WROVER_KIT // Has PSRAM
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/7050c4f9-7173-468c-a566-f3e9f8e59db2)
 
 ```
 
