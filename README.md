@@ -17,11 +17,12 @@ I have used an external 5V wall adapter to get this to work. Connecting from the
 
 It only works with the 2.4 Ghz. I used JioFiber-24 and _EXT
 
-
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/769f3440-787b-4b3e-b436-d408df8b9668)
 
+First, just check that the power supply is good, Connect a 5v and GND to the **bare** ESP32CAM, a small blip of flash light will / should be seen.
+This indicates that the power supply is good.
 
-During Arduino IDE Upload : Press the on-board RST button on the back side to start uploading -or else it wont work.
+During Arduino IDE Upload : Press the on-board RST button on the back side to start uploading -or else it wont work. If the connections are right, the onboard large LED will light up for just a flash. If it does not - then it's a problem - fix it first. 
 
 After uploading - disconnect the GND to GPIO pin, and watch the Serial Monitor for messages.
 
@@ -29,7 +30,7 @@ Use Arduino 2 IDE instead of Arduino 1.x.x IDE - has the " AI thinker in the Boa
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/89542c70-4497-4454-9a27-3997aa322fad)
 
-In order to over come the Code too big - then use the Arduino 2.x IDE.
+In order to over come the Code too big error  - then use the Arduino 2.x IDE.
 
 Use a separate 5V from wall adapter to power the ESP32 Webcam, or else I will get the "brown out time out error"
 
@@ -73,8 +74,6 @@ https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
 
 https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/#1-1
 
-
-
 ##Problem: During the Upload - if you encounter, this error 
 
 ```
@@ -89,10 +88,22 @@ It would have been set to #define CAMERA_MODEL_WROVER_KIT // Has PSRAM
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/7050c4f9-7173-468c-a566-f3e9f8e59db2)
 
-```
 
-shashi
+During successful upload, these were the messages on the Serial Monitor, and Arduino IDE status clip.
+The default download speed of 460800 did not matter.
 
-shashi
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/c61f9d32-908d-45dc-ba99-766d897945e3)
 
-```
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/2ba44cd0-cc75-4649-aae6-f12e7f81275d)
+
+
+
+Some important Installation locations on Mac OS
+
+Documents/Arduino/hardware/espressif/esp32
+
+
+screen /dev/cu.usbserial 115200 
+
+Some how this did not work.
