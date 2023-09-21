@@ -107,3 +107,7 @@ Documents/Arduino/hardware/espressif/esp32
 screen /dev/cu.usbserial 115200 
 
 Some how this did not work.
+
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/4c61de37-a621-45ee-a4f9-7754d7ff8b0e)
+
