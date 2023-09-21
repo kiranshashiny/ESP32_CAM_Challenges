@@ -111,3 +111,6 @@ Some how this did not work.
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/4c61de37-a621-45ee-a4f9-7754d7ff8b0e)
 
+
+
+![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges_troubleshooting/assets/14288989/02f0343e-621e-4a10-a25a-70f17166c3d4)
