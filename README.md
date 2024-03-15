@@ -11,11 +11,11 @@ https://dronebotworkshop.com/esp32-cam-intro/#:~:text=Open%20your%20Serial%20Mon
 
 Troubleshooting tips.
 
-Connect the GPIO0 and the GND to upload code - or else it wont work.
+- Connect the GPIO0 and the GND to upload code - or else it wont work.
 
-I have used an external 5V wall adapter to get this to work. Connecting from the FTDI 5V to Webcam was not successful.
+- I have used an external 5V wall adapter to get this to work. Connecting from the FTDI 5V to Webcam was not successful.
 
-It only works with the 2.4 Ghz. I used JioFiber-24 and _EXT
+- It only works with the 2.4 Ghz. I used JioFiber-24 and _EXT
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/769f3440-787b-4b3e-b436-d408df8b9668)
 
@@ -26,15 +26,15 @@ During Arduino IDE Upload : Press the on-board RST button on the back side to st
 
 After uploading - disconnect the GND to GPIO pin, and watch the Serial Monitor for messages.
 
-Use Arduino 2 IDE instead of Arduino 1.x.x IDE - has the " AI thinker in the Board Manager " 1.x.x does not have it.
+- Use Arduino 2 IDE instead of Arduino 1.x.x IDE - has the " AI thinker in the Board Manager " 1.x.x does not have it.
 
 ![image](https://github.com/kiranshashiny/ESP32_CAM_Challenges/assets/14288989/89542c70-4497-4454-9a27-3997aa322fad)
 
-In order to over come the Code too big error  - then use the Arduino 2.x IDE.
+- In order to over come the Code too big error  - then use the Arduino 2.x IDE.
 
-Use a separate 5V from wall adapter to power the ESP32 Webcam, or else I will get the "brown out time out error"
+- Use a separate 5V from wall adapter to power the ESP32 Webcam, or else I will get the "brown out time out error"
 
-The JioFiber 5G Wifi connection did not connect so I connected to the JioFiber-24 
+- The JioFiber 5G Wifi connection did not connect so I connected to the JioFiber-24 
 
 The brown out condition is explained below :
 
